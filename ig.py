@@ -15,25 +15,26 @@ P = ('\x1b[1;97m')
 
 # Logo
 ___logo___ = (f"""{H} ___
-{P} ###########    ###########
-{U} ###########    ###########
-{P}     # #            # #
-{K}     # #            # #
-{K}     # #            # #
-{K}     # #            # #
+{H} ###########    ###########
+{H} ###########    ###########
+{H}     # #            # #
+{H}     # #            # #
+{H}     # #            # #
+{H}     # #            # #
 {H}{H}${H}{H}——————————————————————————————
 {H}{H}${H}{H} Whatsapp : 08121863286
 {H}{H}${H}{H} Updated  : May 8 
+{H}{H}${H}{H} YouTube  : https://youtube.com/channel/UCXRG5QgnzlZSRQ-BahO6GhQ
 {H}{H}${H}{H}——————————————————————————————
 """)
 # Login Cookie
 def ___login___():
     os.system('clear')
     print(___logo___)
-    print(f"{B}[{P}•{B}]{P} Enter Instagram Cookies, You Should Not Use The Newly Created Account, If You Don't Know How To Get Instagram Cookies Type {M}[{P}Open{M}]{P}\n")
-    ___cookie = input(f"{H}[{P}?{H}]{P} Cookie :{K} ")
+    print(f"{B}[{P}•{B}]{P} Enter Instagram Cookies, Don't Use New  Account, Too Learn How to Create  Instagram Cookies Type {M}[{P}Open{M}]{P}\n")
+    ___cookie = input(f"{H}[{P}?{H}]{P} Cookie :{H} ")
     if ___cookie in ['open', 'Open', 'OPEN']:
-        print(f"{K}[{P}!{K}]{P} You Will Be Redirected To Youtube, Please Follow The Way To Get Cookies...");sleep(3);os.system('xdg-open https://youtube.com/channel/UCO97zzdSWPQ62TS861GLCgw');exit()
+        print(f"{K}[{P}!{K}]{P} You Will Be Redirected To Youtube, Please Follow The Way To Get Cookies...");sleep(4);os.system('xdg-open https://youtu.be/m_bkoDeXht4');exit()
     elif ___cookie in ['', ' ']:
         exit(f"{P}[{M}!{P}]{M} Do not Empty")
     else:
